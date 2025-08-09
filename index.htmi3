@@ -1,0 +1,110 @@
+<html>
+  <body>
+    <h1>Your Name Here</h1>
+    <h2> Your student code here</h2>
+  </body>
+</html>
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweet Bliss Cake</title>
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Itim', cursive;
+            margin: 0;
+            padding: 0;
+            background-color: #fffaf5;
+            color: #444;
+        }
+        header {
+            background-color: #ffd6e0;
+            padding: 15px;
+            text-align: center;
+            box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+        }
+        header img {
+            height: 70px;
+            display: block;
+            margin: 0 auto 10px;
+        }
+        h1 {
+            margin: 0;
+            font-size: 2.2em;
+            color: #b23a48;
+        }
+        main {
+            max-width: 900px;
+            margin: auto;
+            padding: 20px;
+        }
+        .product-description {
+            background: #ffffff;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.05);
+            margin-bottom: 20px;
+        }
+        .product-description h2 {
+            color: #b23a48;
+            margin-top: 0;
+        }
+        .product-images {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .product-images img {
+            width: 300px;
+            border-radius: 15px;
+            box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+        .product-images img:hover {
+            transform: scale(1.05);
+        }
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #ffd6e0;
+            margin-top: 30px;
+            font-size: 0.9em;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <!-- Logo -->
+    <img src="logo-placeholder.png" alt="โลโก้ Sweet Bliss Cake">
+    <h1>Sweet Bliss Cake</h1>
+</header>
+
+<main>
+    <!-- รายละเอียดสินค้า -->
+    <section class="product-description">
+        <h2>รายละเอียดสินค้า</h2>
+        <p>
+            Sweet Bliss Cake คือเค้กโฮมเมดรสชาติหวานละมุน เนื้อนุ่ม หอมกลิ่นวานิลลาและเนยแท้ 
+            เหมาะสำหรับทุกโอกาสพิเศษ ผลิตจากวัตถุดิบคุณภาพสูง ปราศจากสารกันบูด 
+            และตกแต่งอย่างสวยงามเพื่อให้คุณประทับใจทั้งรสชาติและรูปลักษณ์
+        </p>
+    </section>
+
+    <!-- รูปภาพสินค้า -->
+    <section class="product-images">
+        <img src="cake1-placeholder.jpg" alt="ภาพเค้ก 1">
+        <img src="cake2-placeholder.jpg" alt="ภาพเค้ก 2">
+    </section>
+</main>
+
+<footer>
+    &copy; 2025 Sweet Bliss Cake. สงวนลิขสิทธิ์.
+</footer>
+
+</body>
+</html>
