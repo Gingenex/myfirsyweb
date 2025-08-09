@@ -4,3 +4,131 @@
 <h2> Your student code here</h2>
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <title>SweetSlice - เค้กชิ้นแสนอร่อย</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Prompt', sans-serif;
+      background-color: #fffaf7;
+      color: #5e4b44;
+    }
+
+    header {
+      background-color: #ffe4e1;
+      text-align: center;
+      padding: 40px 20px;
+      border-bottom: 3px dashed #f8c8dc;
+    }
+
+    .logo {
+      height: 80px;
+    }
+
+    h1 {
+      font-size: 36px;
+      margin: 10px 0 5px;
+      color: #d45a88;
+    }
+
+    .slogan {
+      font-size: 18px;
+      font-style: italic;
+      color: #b55d74;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 0 20px;
+    }
+
+    .section {
+      margin-bottom: 40px;
+    }
+
+    h2 {
+      font-size: 24px;
+      border-left: 6px solid #ffc1cc;
+      padding-left: 10px;
+      color: #944e63;
+    }
+
+    p, ul {
+      font-size: 16px;
+      line-height: 1.7;
+    }
+
+    ul li {
+      margin-bottom: 8px;
+    }
+
+    .product-images {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      margin-top: 20px;
+    }
+
+    .product-images img {
+      width: 100%;
+      max-width: 400px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(255, 192, 203, 0.3);
+    }
+
+    footer {
+      background-color: #ffe4e1;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      color: #7a5a5a;
+      border-top: 3px dashed #f8c8dc;
+    }
+
+    @import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300;500&display=swap');
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="logo.png" alt="โลโก้ SweetSlice" class="logo">
+    <h1>SweetSlice</h1>
+    <p class="slogan">“One bite, endless joy.”</p>
+  </header>
+
+  <div class="container">
+
+    <div class="section">
+      <h2>รายละเอียดสินค้า</h2>
+      <p>
+        เค้กชิ้นแสนอร่อยจาก SweetSlice สดใหม่ทุกวัน หวานกำลังดี หลากหลายรสชาติ เช่น ช็อกโกแลต วานิลลา และเรดเวลเวท
+        เหมาะสำหรับทานเล่น หรือเป็นของฝากน่ารัก ๆ 🧁
+      </p>
+      <ul>
+        <li>ขนาด: 200 กรัม / ชิ้น</li>
+        <li>ราคาเริ่มต้นที่ 45 บาท</li>
+        <li>บรรจุในกล่องลายพาสเทลสุดคิ้วท์</li>
+        <li>สั่งล่วงหน้าได้ทุกวัน</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>ภาพสินค้า</h2>
+      <div class="product-images">
+        <img src="cake1.jpg" alt="เค้กวานิลลา">
+        <img src="cake2.jpg" alt="เค้กช็อกโกแลต">
+      </div>
+    </div>
+
+  </div>
+
+  <footer>
+    © 2025 SweetSlice. All rights reserved. 🍰
+  </footer>
+
+</body>
+</html>
