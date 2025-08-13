@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ร้านเค้กหวานหอม</title>
+    <style>
+        body {
+            font-family: 'Prompt', sans-serif;
+            background-color: #fff7f9;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ffccd5;
+            padding: 20px;
+        }
+        header img {
+            width: 80px;
+        }
+        h1 {
+            color: #c94f7c;
+        }
+        p {
+            color: #555;
+        }
+        .cake-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            padding: 20px;
+        }
+        .cake-item {
+            background-color: #ffe4ec;
+            border-radius: 15px;
+            padding: 15px;
+            width: 220px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .cake-item img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .cake-item h3 {
+            color: #b03060;
+        }
+        .price {
+            color: #ff3366;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="https://cdn-icons-png.flaticon.com/512/685/685352.png" alt="โลโก้ร้านเค้ก">
+        <h1>ร้านเค้กหวานหอม</h1>
+    </header>
+
+    <section>
+        <p>ยินดีต้อนรับสู่ร้านเค้กหวานหอม 🍰  
+        เรามีเค้กโฮมเมดที่ทำด้วยความใส่ใจและรสชาติที่คุณจะไม่มีวันลืม</p>
+    </section>
+
+    <section class="cake-container">
+        <div class="cake-item">
+            <img src="https://images.unsplash.com/photo-1606788075761-5a14a6b6fbd7" alt="เค้กช็อคโกแลต">
+            <h3>เค้กช็อคโกแลต</h3>
+            <p class="price">75 บาท</p>
+        </div>
+        <div class="cake-item">
+            <img src="https://images.unsplash.com/photo-1617196034884-1b0f5e3d2b63" alt="เค้กส้ม">
+            <h3>เค้กส้ม</h3>
+            <p class="price">59 บาท</p>
+        </div>
+        <div class="cake-item">
+            <img src="https://images.unsplash.com/photo-1601979031489-30f36fe1a5b0" alt="เรดเวลเวทเค้ก">
+            <h3>เรดเวลเวทเค้ก</h3>
+            <p class="price">85 บาท</p>
+        </div>
+    </section>
+
+</body>
+</html>
